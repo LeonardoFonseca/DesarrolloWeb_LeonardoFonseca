@@ -89,6 +89,32 @@
     <br>
     <br>
 
+<!-- formulario ingreso datos estudio -->
 
+    <form action="">
+        <fieldset>
+            <legend>Agregar Estudios</legend>
+                <label for="annio">Año:</label>
+                <input type="number" min="1980" max="2030" name="annio" placeholder="2017">
+                <br>
+                <br>
+                <label for="instituto" type="text" name="estudio">Institución:</label>
+                <input id="instituto" tipe="text" placeholder="Nombre Institucion." required>
+                <br>
+                <br>
+                <label for="lugarEstudio">Lugar:</label>
+                <textarea name="Lugar" id="lugarEstudio" cols="30" rows="2" placeholder="Inserta el nombre del lugar donde realizaste los Estudios"></textarea>
+                <br>
+                <br>
+                <label for="culmino">Culmino?</label>
+                <input type="radio" name="culmino"> Si
+                <input type="radio" name="culmino"> No
+                <br>
+                <br>
+                <input type="submit" name="Enviar" value="Enviar">
+        </fieldset>
+    </form>
+    <br>
+    <br>
 </body>
 </html>
